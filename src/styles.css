@@ -1,3 +1,34 @@
 body {
   background-color: skyblue;
 }
+
+.bigContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 5px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+}
+
+.item {
+  border: grey solid 1px;
+  text-align: center;
+  padding: 5px;
+}
